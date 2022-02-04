@@ -64,5 +64,31 @@
 // console.log("총 금액은 " + (10+5) + "입니다.");
 // console.log(`총 금액은 ${10+5} 만원 입니다.`);
 
-let homework = true;
-console.log(`아 숙제 ${homework ?  "다했다" : "아직 다 못했어"}`);
+// let homework = true;
+// console.log(`아 숙제 ${homework ?  "다했다" : "아직 다 못했어"}`);
+
+// const add = function (num1, num2){
+//     return num1+num2
+// }
+
+// let num1 = 10;
+// let num2 = 20;
+// let result = add(num1, num2);
+// console.log(result);
+
+// 매개변수가 2개 이기 때문에 소괄호는 생략이 불가능하나,
+// 함수의 본문은 한 줄이면 되기 때문에 과감하게 중괄호를 생략하고 함수의 내용만 작성해주는 것이 가능하다.
+// const arrowAdd = (num1, num2) => num1+num2;
+
+// let result = arrowAdd(10,3);
+
+// const arrPow = num1 => num1*num1;
+// let result = arrPow(10);
+// console.log(result);
+
+// 숫자를 인자로 받아서 0 보다 크면 입력받은 숫자 리턴
+// 0 보다 같거나 작으면 0 을 리턴
+// const isPositive = num => num <= 0 ? 0 : num;
+// console.log(isPositive(10));
+
+setTimeout( () => console.log("hello"), 3000);
