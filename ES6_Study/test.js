@@ -47,12 +47,22 @@
 //     num = 11;
 // }
 
-const obj = {
-    'key' : 'value'
-};
+// const obj = {
+//     'key' : 'value'
+// };
 
-console.log(obj.key);
+// console.log(obj.key);
 
-obj.key = 'changeValue';
+// obj.key = 'changeValue';
 
-console.log(obj.key);
+// console.log(obj.key);
+
+// const name = "hojun";
+// // console.log("안녕, 내 이름은 " + name + " 이야");
+// console.log(`안녕, 내 이름은 ${name} 이야`);
+
+// console.log("총 금액은 " + (10+5) + "입니다.");
+// console.log(`총 금액은 ${10+5} 만원 입니다.`);
+
+let homework = true;
+console.log(`아 숙제 ${homework ?  "다했다" : "아직 다 못했어"}`);
