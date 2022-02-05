@@ -1,0 +1,27 @@
+{
+  "name": "javascript-es6-",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "NodeJS 프레임워크 활용을 위한 자바스크립트(ES6) 학습용 repository 입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "babel JAVASCRIPT-ES6-/ES6_Study/js -w -d JAVASCRIPT-ES6-/ES6_Study/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoJun-Seo/JavaScript-ES6-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoJun-Seo/JavaScript-ES6-/issues"
+  },
+  "homepage": "https://github.com/HoJun-Seo/JavaScript-ES6-#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
